@@ -10,7 +10,7 @@ Thanks for your comprehension and your help.
 
 ## Installation :
 1) get the correct kernel header for your linux distribution. For a debian based distribution:
-** sudo apt install linux-headers-$(uname -r) **
+` sudo apt install linux-headers-$(uname -r) `
 
 2) clone or download this repository
 
