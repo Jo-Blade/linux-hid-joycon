@@ -15,10 +15,10 @@ Thanks for your comprehension and your help.
 2) clone or download this repository
 
 3) Compile the driver : open a command line in the folder where you put the download files and type:
-** make **
+` make `
 
 4) load the module : *this operation need to be executed on all reboots! * go in the folder where is the driver and type:
-** sudo insmod hid-joycon.ko **
+` sudo insmod hid-joycon.ko `
 
 ## Use :
 1) pair in bluetooth your Switch controller. (the pro controller can also be used by USB)
