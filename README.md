@@ -17,7 +17,7 @@ Thanks for your comprehension and your help.
 3) Compile the driver : open a command line in the folder where you put the download files and type:
 ` make `
 
-4) load the module : *this operation need to be executed on all reboots! * go in the folder where is the driver and type:
+4) load the module : *this operation needs to be executed on all reboots!* go in the folder where is the driver and type:
 ` sudo insmod hid-joycon.ko `
 
 ## Use :
