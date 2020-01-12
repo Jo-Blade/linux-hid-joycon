@@ -62,3 +62,8 @@ Si vous avez installé le paquet `git` vous pouver également cloner le dépot a
 ` sudo insmod hid-joycon.ko `
 **/!\ Cette dernière opération est à répéter à chaque redémarrage de l'ordinateur**
 Vous pouvez éventuellement ajouter ce module à la liste de ceux automatiquement chargés pour que celui-ci se lance automatiquement. Toutefois je vous conseille de l'avoir testé auparavant pour vous assurer qu'il n'y a pas de bug majeur.
+
+## Utilisation
+Connectez vos manettes switch à votre ordinateur par bluetooth. Le pro-controller peut également être utilisé par liaison filaire. Le pro-controller peut être utilisé directement après la connexion. Pour les joycons, les leds vont se mettre à clignoter: vous devez appuyer en même temps sur les gachettes des manettes pour choisir le mode de connection comme sur votre nintendo Switch.
+ L'appui sur Sr et Sl connectera la manette en configuration manette unique. L'appui sur L du joycon gauche et R du joycon droit va quant à lui connecter ces deux manettes en configuration partagée (elles ne contituerons qu'une unique manette dans vos jeux). Les leds vont alors changer et montrer votre joueur actuel comme sur la console.
+ Dans cette seconde configuration, lors de la deconnexion d'une des deux manettes, la seconde passera de nouveau en attente avec les leds qui clignotent.
