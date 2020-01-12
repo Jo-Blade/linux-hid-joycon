@@ -5,7 +5,7 @@ This driver is an improvement of the basic hid driver from Daniel J. Ogorchock <
 The goal was to provide the same thing as the daemon joycond from the same developper but directly inside the main driver.
 It may be easier to install and use for a common user who just need to compile and install the module and get everything done in the kernel.
 
-This is my first linux kernel program (so, my mod) and I can make some errors. I'm learning.
+This is my first linux kernel program (exactly it is more a fork than a complete module) and I can make some errors. I'm learning.
 Thanks for your comprehension and your help. 
 
 ## Installation :
