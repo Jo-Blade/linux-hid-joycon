@@ -61,7 +61,10 @@ Si vous avez installé le paquet `git` vous pouver également cloner le dépot a
 5) Insérez le module dans le noyau: placez vous dans le dossier contenant le pilote et lancez la commande:
 ` sudo insmod hid-joycon.ko `
 **/!\ Cette dernière opération est à répéter à chaque redémarrage de l'ordinateur**
-Vous pouvez éventuellement ajouter ce module à la liste de ceux automatiquement chargés pour que celui-ci se lance automatiquement. Toutefois je vous conseille de l'avoir testé auparavant pour vous assurer qu'il n'y a pas de bug majeur.
+
+6) Pour éviter les problèmes de dépendances liées à insmod, vous pouvez installer le module. Placez-vous dans le fichier et:
+ `sudo make install`
+ Vous insérez alors le module dans le noyau avec `sudo modprobe hid-joycon` (cette dernière commande est à répéter à chaque redémarrage)
 
 ## Utilisation
 Connectez vos manettes switch à votre ordinateur par bluetooth. Le pro-controller peut également être utilisé par liaison filaire. Le pro-controller peut être utilisé directement après la connexion. Pour les joycons, les leds vont se mettre à clignoter: vous devez appuyer en même temps sur les gachettes des manettes pour choisir le mode de connection comme sur votre nintendo Switch.
