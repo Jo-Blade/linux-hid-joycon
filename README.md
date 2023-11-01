@@ -1,3 +1,6 @@
+**IMPORTANT: This project is not necessary anymore has a joycon driver is now included in the mainline Linux kernel. To combine two joycons as one controller, please use this userspace driver rather than the kernel driver in this repository : https://github.com/DanielOgorchock/joycond**
+For these reasons, this project is now read-only.
+
 # linux-hid-joycon
 This is a kernel module for add the Switch controllers driver.
 This driver is an improvement of the basic hid driver from Daniel J. Ogorchock <djogorchock@gmail.com> that can be found on https://github.com/DanielOgorchock/linux
